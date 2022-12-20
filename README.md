@@ -37,7 +37,8 @@ data_tweet['time']=df['Time']
 data_tweet=data_tweet.sort_values(by=['time'])
 data_tweet.head(10)
    
-   
+   ![date_](https://user-images.githubusercontent.com/66491004/208567989-2bc3ad90-3cb5-4deb-89d9-7bd4585a7842.png)
+
 #################### Mixing days/hours: text
 #daily
 data_tweet.drop(['id','user_followers_count','user_followee_count','lang','user_location',"Month","Day",'Hour','Year','Time hour'], axis=1, inplace=True)
